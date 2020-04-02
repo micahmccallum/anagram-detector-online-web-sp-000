@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(list_of_words)
-    matched = nil
+    matched = []
     list_of_words.each do |word|
       matched << word if word.split("").sort == self.testWord.split("").sort
     end
