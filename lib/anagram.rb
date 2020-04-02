@@ -11,7 +11,7 @@ class Anagram
     list_of_words.each do |word|
       matched << word if word.split("").sort == self.testWord.split("").sort
     end
-    matched   
+    matched
   end
 
 end
